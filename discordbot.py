@@ -52,5 +52,8 @@ async def シンボリルドルフ(ctx):
 @bot.command()
 async def ライスシャワー(ctx):
     await ctx.send('https://umamusume.jp/app/wp-content/uploads/2021/01/3f870987542d38df7399e4b721700e0c.png')
+    
+if message.content == 'おはよう':
+await message.channel.send('おっはよ～！') 
 
 bot.run(token)
