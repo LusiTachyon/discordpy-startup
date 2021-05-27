@@ -53,5 +53,13 @@ async def シンボリルドルフ(ctx):
 async def ライスシャワー(ctx):
     await ctx.send('https://umamusume.jp/app/wp-content/uploads/2021/01/3f870987542d38df7399e4b721700e0c.png')
     
-
+@bot.command()
+async def アグネスタキオン(ctx):
+　　embed=discord.Embed(title="アグネスタキオン", color=0xff00ff)
+   embed.set_thumbnail(url="https://img.game8.jp/5652871/328858adf869cfe77a521ac3da91545f.png/show")
+   embed.add_field(name="適性距離", value="中距離", inline=True)
+   embed.add_field(name="適性脚質", value="先行", inline=True)
+   embed.add_field(name="ステータス成長率", value="スピード+20%  根性＋10%", inline=True)
+   await ctx.send(embed=embed)    
+        
 bot.run(token)
