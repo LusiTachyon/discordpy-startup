@@ -57,5 +57,5 @@ async def ライスシャワー(ctx):
 async def hello(ctx):
     embed = discord.Embed(title="Hi!!",description="How are you?")
     await ctx.send(embed=embed)
-        
+    
 bot.run(token)
