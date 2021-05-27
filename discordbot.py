@@ -53,6 +53,7 @@ async def シンボリルドルフ(ctx):
 async def ライスシャワー(ctx):
     await ctx.send('https://umamusume.jp/app/wp-content/uploads/2021/01/3f870987542d38df7399e4b721700e0c.png')
     
+@bot.command()
 async def hello(ctx):
     embed = discord.Embed(title="Hi!!",description="How are you?")
     await ctx.send(embed=embed)
